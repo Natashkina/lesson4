@@ -284,6 +284,10 @@ ul.popular p {
 	}
 }
 @media all and (max-width: 768px) {
+input[type=checkbox] {
+	display: none;
+	
+}
 .image img {
     padding-top: 20px;
     width: 67%;
@@ -509,17 +513,14 @@ a.bx-next {
     display: none;
     
 }
- 
 input[type=checkbox]:checked ~ .to-be-changed {
-    display: block;
-    
+    display: block;   
 }
 input[type=checkbox] {
     position: absolute;
     top: -9999px;
     left: -9999px;
 }
- 
 label {
     display: block;
     background: #08C;
