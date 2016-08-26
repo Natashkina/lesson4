@@ -286,7 +286,6 @@ ul.popular p {
 @media all and (max-width: 768px) {
 input[type=checkbox] {
 	display: none;
-	
 }
 .image img {
     padding-top: 20px;
