@@ -255,24 +255,26 @@ ul.popular p {
 	color: #909090;
 	padding-top: 36px;
 }
+input[type=checkbox] {
+	display: none;
+}
 @media all and (max-width: 980px) {
 	.left-indent {
 		padding-left: 20px;
 	}
-
 	.right-indent {
 		padding-right: 20px;
 	}
 		.right-indent a {
 		font-size: 18px;
 	}
-		.shopping p {
+	.shopping p {
 			margin: 0;
 			padding: 0 0 32px 0;
 			text-align: center;
 			font-size: 35px;
 			color: #6f7173;
-		}
+	}
     .right-content p {
     font-size: 14px;
     line-height: 25px;
@@ -284,9 +286,7 @@ ul.popular p {
 	}
 }
 @media all and (max-width: 768px) {
-input[type=checkbox] {
-	display: none;
-}
+
 .image img {
     padding-top: 20px;
     width: 67%;
