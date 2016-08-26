@@ -4,6 +4,10 @@ body {
 	background: #fff;
 	font: 20px/44px 'SegoeWP',sans-serif ;
 }
+img {
+	border-style: none;
+	
+}
 div,li {
 	box-sizing: border-box;
 }
